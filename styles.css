@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+
+
+}
+.container,.d,.h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:1500px;
+    background-color: rgb(20, 12, 12);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+select{
+    margin-bottom: 50px;
+    width: 100px;
+    height: 35px;
+}
+
+form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 30px;
+ 
+}
+
+footer{
+    background-color: rgb(33, 32, 32);
+    height: 200px;
+    width: 1500px;
+}
+
+h1{
+    margin-bottom:50px;
+    margin-top: 50px;
+
+}
+
+.fim{
+    margin-bottom: 70px;
+}
+form input{
+
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration-color: rgb(64, 255, 0);
+}
+
+
+
+.hob label{
+    
+    display: flex
+   
+}
+.hob input{ 
+            display: flex;
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+            margin-left: 50px;
+}
+
+.hob{
+    display: flex;
+    font-size:24px;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: 90px;
+   
+}
+
+.enviar{
+
+    margin-top: 70px;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    align-self:center;
+}
+   
+
+
+
+.d, .h{
+    border-bottom: 1px solid seashell;
+    width: 80%;
+}
+
+textarea{
+
+    width: 50%;
+    height: 180px;
+    border-radius: 40px;
+    font-size: 30px;
+    padding: 20px;
+    font-style: oblique;
+   
+    animation-delay: 5000ms;
+    font-weight: bolder;
+}
+
+header{
+    display: flex;
+    background-color: rgb(40, 1, 1);
+    height: 200px;
+    width: 1500px;
+ 
+    font-size: 50px;
+    padding-left: 20px;
+    align-items: center;
+    font-family:sans-serif;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-style:italic;
+    color: #ffffff;
+   
+
+
+
+}
+    
+
+footer{
+   
+
+    display: flex;
+    background-color: rgb(33, 32, 32);
+    height: 200px;
+    width: 1500px;
+    text-align: center;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    text-transform: uppercase;
+    
+
+
+
+
+}
+ 
+form{
+
+    border-top: 2px solid rgb(255, 255, 255);
+
+}
+
+form label{
+
+    margin-top: 55px;
+}
