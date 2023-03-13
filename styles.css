@@ -2,12 +2,21 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
-    
-
 
 }
-.container,.d,.h{
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 14, 14);
+}
+.container{
+    min-height: 800px;
+}
+.container,.d,.h,.coment{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,7 +64,7 @@ form input{
     font-size: 20px;
     font-weight: bolder;
     font-style: oblique;
-    text-decoration-color: rgb(64, 255, 0);
+    text-decoration-color: rgb(255, 255, 255);
 }
 
 
@@ -91,6 +100,7 @@ form input{
     font-weight: bolder;
     padding: 20px;
     align-self:center;
+    border-radius: 10px;
 }
    
 
@@ -119,7 +129,6 @@ header{
     background-color: rgb(40, 1, 1);
     height: 200px;
     width: 1500px;
- 
     font-size: 50px;
     padding-left: 20px;
     align-items: center;
@@ -128,6 +137,8 @@ header{
     text-transform: capitalize;
     font-style:italic;
     color: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
    
 
 
@@ -143,13 +154,14 @@ footer{
     height: 200px;
     width: 1500px;
     text-align: center;
-    font-size: 10px;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-style: oblique;
     text-transform: uppercase;
+    color: #fcfcfc;
     
 
 
@@ -157,13 +169,31 @@ footer{
 
 }
  
-form{
 
-    border-top: 2px solid rgb(255, 255, 255);
-
-}
 
 form label{
 
     margin-top: 55px;
+}
+
+.coment{
+
+
+    margin-bottom: 80px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 80%;
+}
+.divi{
+
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 80px;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+img{
+
+    height: 270px;
+    width: 300px;
+    margin-top: 10px;
 }
